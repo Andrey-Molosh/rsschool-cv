@@ -1,0 +1,156 @@
+html {
+  height: 100%;
+  }
+
+  body {
+    min-height: 100%;
+    font-size: 1.0;
+  }
+
+  .intro {
+    
+    padding: 10px;
+    
+    max-width: 1080px;
+    margin: 0 auto;
+    display: block;
+    
+  }
+  
+  main {
+    flex: 1 1 auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .about {
+    margin-bottom: 30px;
+  }
+  
+ 
+  
+  .cv {
+    padding: 5px;
+    background-color: rgb(247, 247, 247);
+  }
+  
+  * {
+    color: #333333;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    color: #2f80ed;
+    margin-bottom: 1.25em;
+  }
+  
+  h2 {
+    color: #333333;
+    font-size: 1.8em;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+  
+  h3, li {
+    color: #333333;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+  
+  a {
+    color: #2f80ed;
+    font-size: 1.5em;
+  }
+  
+  .contact_section {
+    background-color: #cabebe;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+    margin-bottom: 2em;
+  }
+  
+  .contacts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  } 
+  
+  .contact {
+    display: flex;
+    padding: 5px;
+  }
+  
+  .contact_type {
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+  }
+  
+  .contact_value {
+    color: #000000;
+  }
+
+  .logo {
+   
+    height: 220px;
+    text-align: right;
+  }
+
+  .img_logo {
+    height: 100%;
+    
+    object-fit: cover;	
+   
+ }
+
+
+  
+  pre {
+    color: rgb(86, 114, 190);
+    margin: 0 auto;
+  }
+  
+  footer {
+    background-color: rgb(203, 244, 247);
+    padding: 5px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    font-size: 0.7em;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+   
+  .footer_contact {
+    padding-left: 0px;
+  }
+  
+  .footer_cont {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .footer_value {
+    font-weight: 900;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  .footer_logo {
+    height: 50px;
+  }
+
+  .year {
+    font-weight: 700;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-align: right;
+  }/*# sourceMappingURL=style.css.map */
