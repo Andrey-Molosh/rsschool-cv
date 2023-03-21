@@ -8,9 +8,7 @@ html {
   }
 
   .intro {
-    
     padding: 10px;
-    
     max-width: 1080px;
     margin: 0 auto;
     display: block;
@@ -30,8 +28,6 @@ html {
   .about {
     margin-bottom: 30px;
   }
-  
- 
   
   .cv {
     padding: 5px;
@@ -104,13 +100,10 @@ html {
 
   .img_logo {
     height: 100%;
-    
     object-fit: cover;	
    
  }
 
-
-  
   pre {
     color: rgb(86, 114, 190);
     margin: 0 auto;
@@ -130,7 +123,6 @@ html {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
   
-   
   .footer_contact {
     padding-left: 0px;
   }
@@ -153,4 +145,4 @@ html {
     font-weight: 700;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     text-align: right;
-  }/*# sourceMappingURL=style.css.map */
+  }
