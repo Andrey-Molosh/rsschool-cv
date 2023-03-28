@@ -235,7 +235,11 @@ body {
     font-weight: 400;
     font-size: 15px;
     line-height: 160%;
-    
+}
+
+.noneactive:hover {
+    color: rgb(165, 141, 141);
+    transition: 0.2s;
 }
 
 /* .header__item:hover:after{
