@@ -800,6 +800,7 @@ footer {
 
 .footer__visit-heading {
     margin-bottom: 34px;
+    letter-spacing: 2px;
 }
 
 .mail, .phon, .bost, .lond  {

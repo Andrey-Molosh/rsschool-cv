@@ -105,7 +105,7 @@ section {
     box-sizing: border-box;
 }
 
-/* noto-sans-georgian-regular - latin */
+
 @font-face {
     font-family: Georgia, "Times New Roman", Times, serif;
     src: url(../fonts/georgia.ttf);
@@ -182,7 +182,7 @@ body {
     line-height: 35px;
     color: #545454;
     text-decoration: none;
-   
+    letter-spacing: 2px;
 }
 
 .header__logo-text__desc {
@@ -192,12 +192,14 @@ body {
     line-height: 15px;
     color: #545454;
     align-items: center;
+    letter-spacing: 1px;
+    word-spacing: 3px;
 }
 
 .header__list {
     display: flex;
     flex-wrap: wrap;
-
+    margin-top: -4px;
 }
 
 .header__item {
@@ -301,10 +303,10 @@ body {
     
 }
 
-.our-friends_head {
+/* .our-friends_head {
     padding-left: 400px;
     padding-right: 400px;
-}
+} */
 
 .our-friends_heading {
     
@@ -316,6 +318,9 @@ body {
     color: #545454;
     margin-bottom: 60px;
     text-align: center;
+    white-space: pre-line;
+    word-spacing: 7px;
+    letter-spacing: 1px;
 }
 /* 
 .slider-icon {
@@ -356,14 +361,14 @@ body {
 
 
 .our-friends__cards {
-    padding-left: 105px;
-    padding-right: 105px;
+    /* padding-left: 105px;
+    padding-right: 105px; */
    
     display: grid;
     grid-template-columns: repeat(4, 2fr);
     grid-column-gap: 40px;
     grid-row-gap: 30px;
-    margin-bottom: 45px;
+    margin-bottom: 55px;
 } 
 
 .our-friends__card {
@@ -532,9 +537,13 @@ footer {
 
 } 
 
-.footer__pic {
-    
-    
+.footer__visit {
+    margin-left: -25px;
+}
+
+.footer__text-heading {
+    white-space: pre-line;
+    letter-spacing: 2px;
 }
 
 .footer__text-heading,  .footer__visit-heading {
@@ -547,15 +556,18 @@ footer {
     width: 300px;
     margin-right: 0px;
     margin-bottom: 20px;
+    white-space: pre-line;
 }
 
 .footer__text-heading, .email {
-    margin-bottom: 40px;
+    margin-bottom: 42px;
 }
 
 .footer__visit-heading {
-    margin-bottom: 34px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
 }
+
 
 .mail, .phon, .bost, .lond  {
     font-family: 'Georgia';
@@ -565,6 +577,7 @@ footer {
     line-height: 23px;
     color: #F1CDB3;
     text-decoration: none;
+    letter-spacing: 1px;
 }
 
 .boston {
@@ -574,8 +587,8 @@ footer {
 
 .email {
     position: relative;
-    padding-left: 60px;
-    
+    padding-left: 65px;
+    margin-bottom: 48px;
 }
 
 .email::before {
