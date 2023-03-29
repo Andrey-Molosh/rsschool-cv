@@ -597,7 +597,7 @@ footer {
     margin-left: -60px;
     position: absolute;
     z-index: 3;
-    content: url(/shelter/img/icon-email.svg);
+    content: url(../img/icon-email.svg);
 }
 
 .phone {
@@ -612,7 +612,7 @@ footer {
     margin-left: -60px;
     position: absolute;
     z-index: 3;
-    content: url(/shelter/img/icon-phone.svg);
+    content: url(../img/icon-phone.svg);
 }
 
 .boston, .london {
@@ -627,7 +627,7 @@ footer {
     margin-left: -42px;
     position: absolute;
     z-index: 4;
-    content: url(/shelter/img/icon-marker.svg);
+    content: url(../img/icon-marker.svg);
     
 }
 
@@ -637,7 +637,7 @@ footer {
     margin-left: -42px;
     position: absolute;
     z-index: 4;
-    content: url(/shelter/img/icon-marker.svg);
+    content: url(../img/icon-marker.svg);
     
 }
 
