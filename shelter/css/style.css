@@ -691,8 +691,9 @@ body {
     width: 300px;
     margin-right: 0px;
     margin-bottom: 20px;
-    word-spacing: 12px;
+    word-spacing: 6px;
     white-space: pre-line;
+    letter-spacing: 1px;
 }
 
 .in-addition__text-desc_first {
@@ -703,6 +704,7 @@ body {
     line-height: 110%;
     color: #545454;
     margin-bottom: 20px;
+    letter-spacing: 1px;
 }
 
 .credit_card {
@@ -715,6 +717,7 @@ body {
 .credit_number {
     padding: 10px 15px 10px 60px;
     vertical-align: middle;
+
 }
 
 .credit_number::before {
@@ -735,6 +738,7 @@ body {
     line-height: 23px;
     color: #545454;
     text-decoration: none;
+    letter-spacing: 1.1px;
 }
 
 .in-addition__text-desc_second {
